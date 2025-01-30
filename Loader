@@ -1,0 +1,23 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mixvpnv2/Lib/refs/heads/main/Lib"))()
+
+local Window = Library.CreateLib("BackZ.xyz (Loader/https://discord.gg/xbvDUA8eCt)", "RJTheme6")
+
+local Tab = Window:NewTab("Loader")
+
+local Section = Tab:NewSection("Loader")
+
+Section:NewButton("(Universal)", "(Universal)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Mixvpnv2/BackZV2/refs/heads/main/BacKZV2.txt'))()
+end)
+
+Section:NewButton("(GamesUniteTestingPlace)", "(GamesUniteTestingPlace)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Mixvpnv2/GamesUniteTestingPlace/refs/heads/main/GamesUniteTestingPlace.txt'))()  (GamesUniteTestingPlace)
+end)
+
+Section:NewButton("(BloodEngine)", "(BloodEngine)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Mixvpnv2/BloodEngine/refs/heads/main/BloodEngine.txt'))() (BloodEngine)
+end)
+
+Section:NewButton("(DeltaBETA)", "(DeltaBETA)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Mixvpnv2/deltabeta/refs/heads/main/Delta'))() (DeltaBETA)
+end)
